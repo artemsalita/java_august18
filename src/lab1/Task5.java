@@ -1,7 +1,11 @@
+package lab1;
+
 import java.util.Scanner;
 
-public class Task6 {
-
+/**
+ * Created by pro-28 on 31.07.2018.
+ */
+public class Task5 {
     public static void main(String[] args) {
         String a;
         String b;
@@ -9,6 +13,6 @@ public class Task6 {
         s = new Scanner(System.in);
         a = s.nextLine();
         b = s.nextLine();
-        System.out.println("Меня зовут " + b + ", " + a + " " +b);
+        System.out.println(b+" "+a);
     }
 }
