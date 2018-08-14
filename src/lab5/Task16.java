@@ -42,10 +42,10 @@ public class Task16 {
             return;
         }
 
-        if (A == B && B == C) {
+        /*if (A == B && B == C) {
             System.out.println("Треугольник является равнобедренным.");
             return;
-        } else {
+        } */else {
             System.out.println("Треугольник не является равнобедренным.");
             return;
         }

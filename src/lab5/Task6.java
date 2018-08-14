@@ -7,9 +7,9 @@ public class Task6 {
 
     public static void main(String[] args) {
 
-        int shipKmH;
-        int cometMS;
-        int shipMS;
+        double shipKmH;
+        double cometMS;
+        double shipMS;
 
         Scanner s = new Scanner(System.in);
 
@@ -28,10 +28,10 @@ public class Task6 {
         }
 
         if(cometMS<shipMS){
-            System.out.println("Корабль догонит комету. Скорость кометы "+cometMS+" м/с меньше скорости корабля "+shipKmH+" км/ч");
+            System.out.printf("Корабль догонит комету. Скорость кометы %.4f м/с меньше скорости корабля %.4f км/ч",cometMS,shipKmH);
         }
         if(cometMS>shipMS){
-            System.out.println("Комета улетит от корабля. Скорость корабля "+shipKmH+" км/ч меньше скорости кометы "+cometMS+" м/с");
+            System.out.printf("Комета улетит от корабля. Скорость корабля %.4f км/ч меньше скорости кометы %.4f м/с",shipKmH,cometMS);
         }
 
 

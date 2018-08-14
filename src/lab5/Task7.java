@@ -29,10 +29,10 @@ public class Task7 {
             return;
         }
         if (edgeS>radiusS){
-            System.out.println("Площадь квадрата "+edgeS+" больше площади круга "+/*"%.4f",*/radiusS);
+            System.out.printf("Площадь квадрата %.4f больше площади круга %.4f",edgeS,radiusS);
         }
         if (radiusS>edgeS){
-            System.out.println("Площадь круга "+radiusS+" больше площади квадрата "+edgeS+"");
+            System.out.printf("Площадь круга %.4f больше площади квадрата %.4f",radiusS,edgeS);
         }
 
 
