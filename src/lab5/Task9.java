@@ -14,21 +14,21 @@ public class Task9 {
         areaCircle = s.nextInt();
         areaSquare = s.nextInt();
 
-        if(areaCircle<0){
+        if (areaCircle < 0) {
             System.out.println("Площадь круга должна быть положительной");
             return;
         }
-        if(areaSquare<0){
+        if (areaSquare < 0) {
             System.out.println("Площадь квадрата должна быть положительной");
             return;
         }
 
-        if(areaCircle>areaSquare){
+        if (areaCircle > areaSquare) {
             System.out.println("Круг не поместится в квадрате");
-            }
-         if(areaCircle<areaSquare){
-             System.out.println("Круг уместится в квадрате");
-         }
+        }
+        if (areaCircle < areaSquare) {
+            System.out.println("Круг уместится в квадрате");
+        }
 
     }
 

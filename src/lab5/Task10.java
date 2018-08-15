@@ -16,19 +16,18 @@ public class Task10 {
         Y = s.nextDouble();
         Z = s.nextDouble();
 
-        if(X>0){
-            X = X*X;
+        if (X > 0) {
+            X = X * X;
         }
 
-        if(Y>0){
-            Y = Y*Y;
+        if (Y > 0) {
+            Y = Y * Y;
         }
 
-        if(Z>0){
-            Z = Z*Z;
+        if (Z > 0) {
+            Z = Z * Z;
         }
-        System.out.println(X+";"+Y+";"+Z);
-
+        System.out.println(X + ";" + Y + ";" + Z);
 
 
     }
