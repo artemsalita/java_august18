@@ -8,31 +8,29 @@ public class Task10 {
 
         int A;
         int B;
-
+        int C;
         Scanner s = new Scanner(System.in);
-
         A = s.nextInt();
         B = s.nextInt();
-
+        C = B;
         if (A <= B) {
             while (A <= B) {
-                System.out.println(A + " " + B);
-
+                System.out.println(A + " " + C);
                 A++;
-                B = B - 1;
-
+                C = C - 1;
+                //B = B - 1;
             }
+            //return;
+
+        } else {
+            // if (A >= B) {
+            while (A >= B) {
+                System.out.println(A + " " + C);
+                C++;
+                A = A - 1;
+            }
+            //}
         }
-
-        /*if (A>=B){
-            while (A>=B){
-                B = B - 1;
-            }
-        }*/
-
-
     }
 }
-
-
 
