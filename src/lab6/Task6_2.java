@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by pro-28 on 14.08.2018.
  */
-public class Task62 {
+public class Task6_2 {
 
     public static void main(String[] args) {
 
