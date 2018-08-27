@@ -5,7 +5,7 @@ public class Task16 {
     public static void main(String[] args) {
 
         double a = 20;
-        int b = 40;
+        double b = 40;
         double c = 21;
         int a3 = 3;
 

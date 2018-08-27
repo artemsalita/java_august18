@@ -9,14 +9,12 @@ public class Task18 {
 
     public static void main(String[] args) {
 
-        Scanner s =new Scanner(System.in);
-
         int a;
-        int count;
+        int count = 1;
+        int sum = 0;
+
+        Scanner s =new Scanner(System.in);
         a = s.nextInt();
-        int sum;
-        sum = 0;
-        count = 1;
 
         sum = sum + a;
         if (a !=0) {
