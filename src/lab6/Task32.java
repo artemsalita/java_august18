@@ -11,15 +11,60 @@ public class Task32 {
         Scanner s = new Scanner(System.in);
         x= s.nextInt();
 
+        if (x<1||x>20){
+            System.out.println("Значение x должно быть в интервале [0, 20]");
+            return;
+        }
+
         while (y<=x){
             System.out.print("a");
             y++;
-        }y=1;
+        }
+        System.out.println();
+        y=1;
 
         while (y<=x){
             System.out.print("b");
             y++;
         }
+        System.out.println();
+        y=1;
+        while (y<=x){
+            System.out.print("c");
+            y++;
+        }
+        System.out.println();
+        y=1;
+        while (y<=x){
+            System.out.print("d");
+            y++;
+        }
+        System.out.println();
+        y=1;
+        while (y<=x){
+            System.out.print("e");
+            y++;
+        }
+        System.out.println();
+        y=1;
+        while (y<=x){
+            System.out.print("f");
+            y++;
+        }
+        System.out.println();
+        y=1;
+        while (y<=x){
+            System.out.print("g");
+            y++;
+        }
+        System.out.println();
+        y=1;
+        while (y<=x){
+            System.out.print("h");
+            y++;
+        }
+        /*System.out.println();
+        y=1;*/
 
 
         /*while (y<x){
