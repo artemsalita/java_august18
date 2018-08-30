@@ -26,7 +26,7 @@ public class Task0 {
         System.out.println(a[3]); // r
         System.out.println(a[0]); // q
 
-        System.out.println(a[99]); //java.lang.ArrayIndexOutOfBoundsException: 99
+        System.out.println(a[99]); //java.lang.ArrayIndexOutOfBoundsException: 99 ощибка длины массива
 
     }
 }
