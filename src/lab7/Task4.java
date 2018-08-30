@@ -2,7 +2,8 @@ package lab7;
 
 import java.util.Scanner;
 
-public class Task4 {
+public class
+Task4 {
     public static void main(String[] args) {
         // int n;
         int B;
@@ -22,15 +23,21 @@ public class Task4 {
             System.out.println("Число E должно быть в интервале [0, размер массива)");
             return;
         }
-
-        while (B <= E) {
-            System.out.print(arr[B] + " ");
-            B++;
+        if (B <= E) {
+            while (B <= E) {
+                System.out.print(arr[B] + " ");
+                B++;
+            }
+           // return;
         }
 
-        while (E <= B) {
-            System.out.print(arr[E] + " ");
-            E++;
+        /*if (E <= B)*/
+        else {
+            while (E <= B) {
+                System.out.print(arr[E] + " ");
+                E++;
+            }
+           // return;
         }
 
         /*for (int B;B<=E;B++){

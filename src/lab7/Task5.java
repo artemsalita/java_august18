@@ -2,18 +2,24 @@ package lab7;
 
 import java.util.Scanner;
 
-public class Task4_1 {
+/**
+ * Created by pro-28 on 30.08.2018.
+ */
+public class Task5 {
 
     public static void main(String[] args) {
+
         int B;
         int E;
+        String t;
+       // int n=0;
         Scanner s = new Scanner(System.in);
         String data = s.nextLine();
         B = s.nextInt();
         E = s.nextInt();
         String[] arr = data.split(" ");
 
-          if (B > arr.length || B < 0) {
+        if (B > arr.length || B < 0) {
             System.out.println("Число B должно быть в интервале [0, размер массива)");
             return;
         }
@@ -22,16 +28,17 @@ public class Task4_1 {
             return;
         }
 
-//if ()
-        if (B<=E) {
-            for (; B <= E; B++) {
-                System.out.print(arr[B] + " ");
-            }
-        }else {
-            for (; E <= B; E++) {
-                System.out.print(arr[E] + " ");
-            }
+            t = arr[B];
+        arr[B] = arr[E];
+        arr[E] = t;
+
+        for (int n=0;n<arr.length;n++){
+            System.out.print(arr[n]+" ");
         }
 
+
+
+
     }
+
 }
