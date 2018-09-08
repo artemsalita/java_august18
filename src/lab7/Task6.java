@@ -28,6 +28,6 @@ public class Task6 {
         arr[0] = t;
         for (int n = 0; n < arr.length; n++) {
             System.out.print(arr[n] + " ");
-        }
+        } 
     }
 }
