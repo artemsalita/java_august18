@@ -9,25 +9,36 @@ public class Task6 {
 
     public static void main(String[] args) {
 
+        int B;
+        int E;
         String t;
+       // int n=0;
         Scanner s = new Scanner(System.in);
         String data = s.nextLine();
+        B = s.nextInt();
+        E = s.nextInt();
         String[] arr = data.split(" ");
 
-        t = arr[arr.length - 1];
-        int u = arr.length - 1;
-
-        int o = arr.length - 2;
-
-        while (u>0) {
-            arr[u] = arr[o];
-            u--;
-            o--;
+        if (B > arr.length || B < 0) {
+            System.out.println("Число B должно быть в интервале [0, размер массива)");
+            return;
+        }
+        if (E > arr.length || E < 0) {
+            System.out.println("Число E должно быть в интервале [0, размер массива)");
+            return;
         }
 
-        arr[0] = t;
-        for (int n = 0; n < arr.length; n++) {
-            System.out.print(arr[n] + " ");
-        } 
+            t = arr[B];
+        arr[B] = arr[E];
+        arr[E] = t;
+
+        for (int n=0;n<arr.length;n++){
+            System.out.print(arr[n]+" ");
+        }
+
+
+
+
     }
+
 }
