@@ -7,7 +7,7 @@ public class Task0 {
 
     public static void main(String[] args) {
 
-        String []a; // объявлкение массива для строк
+        String[] a; // объявлкение массива для строк
 
         int n = 5;
         a = new String[n]; // то же самое

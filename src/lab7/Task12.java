@@ -23,8 +23,6 @@ public class Task12 {
             numleft[i] = Integer.parseInt(left1[i]);
             numright[i] = Integer.parseInt(right1[i]);
             System.out.print(numleft[i]*numright[i]+" ");
-
         }
-
     }
 }
