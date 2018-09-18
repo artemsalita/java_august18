@@ -16,7 +16,8 @@ public class Task16 {
 
             if (a[i].equals(X)){
                 System.out.println(a[i]+"+");
-            } else System.out.println(a[i]);
+            }
+            else System.out.println(a[i]);
 
 
 
