@@ -10,6 +10,7 @@ public class Task14 {
         int[] nummers = new int[num.length];
         double average;
         double sum = 0;
+        double result;
 
 
         for (int i = 0; i < num.length; i++) {
@@ -19,5 +20,10 @@ public class Task14 {
             sum += nummers[j];
         }
         average = sum / nummers.length;
+
+        for (int u = 0; u < nummers.length; u++) {
+            result = average - nummers[u];
+            System.out.print(Math.abs(result) + " ");
+        }
     }
 }

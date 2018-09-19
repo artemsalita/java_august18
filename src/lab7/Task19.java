@@ -36,11 +36,14 @@ public class Task19 {
             amounts[i] = Integer.parseInt(amountsNum[i]);
         }
 
-
+        for (int g = 0; g < chars.length; g++) {
+            System.out.println();
 
             for (int u = 0; u < amounts[t]; u++) {
                 System.out.print(chars[t]);
             }
+            t++;
+        }
 
     }
 }
