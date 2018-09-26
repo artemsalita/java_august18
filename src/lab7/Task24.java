@@ -14,10 +14,12 @@ public class Task24 {
         for (int i = 0; i < dataNum.length; i++) {
             num[i] = Integer.parseInt(dataNum[i]);
         }
-        int A = num[0];
+        int b = 0;
+        int A = num[b];
         int y = 0;
+        b++;
 
-        for (int b = 1;b < num.length;b++){
+        for (;b < num.length;b++){
             if (A>num[b]){
 
                 A=num[b];
