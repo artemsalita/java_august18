@@ -15,31 +15,44 @@ public class Task28 {
             num[i] = Integer.parseInt(dataNum[i]);
         }
 
-        int A = num[0];
-        int y = 0;
+        int D = 0;
+        int B = 1;
+        int A = num[D];
+        int y = D;
         int z;
 
-        for (int b = 1;b < num.length;b++) {
-            if (A > num[b]) {
+        for (;D<num.length;){
 
-                A = num[b];
-                y = b;
+            A = num[D];
+
+            y = D;
+
+            for (int b = B; b < num.length; b++) {
+                if (A > num[b]) {
+
+                    A = num[b];
+                    y = b;
+                }
             }
-        }
-            z = num[y];
-            num[y] = num [0];
-            num[0] = z;
-        for (int w = 0;w<num.length;w++){
+        z = num[y];
+        num[y] = num[D];
+        num[D] = z;
+        for (int w = 0; w < num.length; w++) {
             System.out.print(num[w]);
-
         }
+
         System.out.println();
+            D++;
 
-         A = num[1];
-         y = 1;
+        B++;
+
+    }
+
+        /* A = num[D];
+         y = D;
 
 
-        for (int b = 2;b < num.length;b++) {
+        for (int b = B;b < num.length;b++) {
             if (A > num[b]) {
 
                 A = num[b];
@@ -47,12 +60,80 @@ public class Task28 {
             }
         }
         z = num[y];
-        num[y] = num [1];
-        num[1] = z;
+        num[y] = num [D];
+        num[D] = z;
         for (int w = 0;w<num.length;w++){
             System.out.print(num[w]);
 
         }
+        System.out.println();
+
+        D++;
+        B++;
+
+        A = num[D];
+        y = D;
+
+
+        for (int b = B;b < num.length;b++) {
+            if (A > num[b]) {
+
+                A = num[b];
+                y = b;
+            }
+        }
+        z = num[y];
+        num[y] = num [D];
+        num[D] = z;
+        for (int w = 0;w<num.length;w++){
+            System.out.print(num[w]);
+
+        }
+        System.out.println();
+
+        D++;
+        B++;
+
+        A = num[D];
+        y = D;
+
+
+        for (int b = B;b < num.length;b++) {
+            if (A > num[b]) {
+
+                A = num[b];
+                y = b;
+            }
+        }
+        z = num[y];
+        num[y] = num [D];
+        num[D] = z;
+        for (int w = 0;w<num.length;w++){
+            System.out.print(num[w]);
+
+        }        System.out.println();
+
+        D++;
+        B++;
+
+        A = num[D];
+        y = D;
+
+
+        for (int b = B;b < num.length;b++) {
+            if (A > num[b]) {
+
+                A = num[b];
+                y = b;
+            }
+        }
+        z = num[y];
+        num[y] = num [D];
+        num[D] = z;
+        for (int w = 0;w<num.length;w++){
+            System.out.print(num[w]);
+
+        }*/
 
     }
 }
