@@ -18,9 +18,11 @@ for (;n<b.length();n++) {
     d = b.indexOf(a, n);
 
     System.out.print(d+" ");
-    d++;
+    n = d;
+
 
 }
+
 
     }
 }
