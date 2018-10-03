@@ -13,13 +13,16 @@ public class Task13 {
         String a = s.nextLine();
         int d,n = 0;
 
+        if (a.length()>1||a.length()<1){
+            System.out.println("Нужно ввести ровно один символ");
+            return;
+        }
+
 
 for (;n<b.length();n++) {
+
     d = b.indexOf(a, n);
-
     System.out.print(d+" ");
-    n = d;
-
 
 }
 
