@@ -32,9 +32,7 @@ public class Task13 {
          else{
 
              System.out.println("Числа не равны друг другу.");
-
          }
-
 
 
     }
